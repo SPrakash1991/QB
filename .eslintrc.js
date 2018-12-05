@@ -85,7 +85,7 @@ module.exports = {
         'yoda': ERROR,
         'max-len': [
             ERROR,
-            120
+            150
         ],
         'camelcase': [
             ERROR,
@@ -124,18 +124,18 @@ module.exports = {
             ERROR,
             'property'
         ],
-        'func-style': [
-            ERROR,
-            'declaration',
-            {
-                allowArrowFunctions: true
-            }
-        ],
+        //'func-style': [
+        //    ERROR,
+        //    'expression',
+        //    {
+        //        allowArrowFunctions: true
+        //    }
+        //],
         'eol-last': ERROR,
         'space-infix-ops': ERROR,
         'keyword-spacing': ERROR,
         'space-before-blocks': ERROR,
-        'no-invalid-this': ERROR,
+        //'no-invalid-this': ERROR,
         'consistent-this': ERROR,
         'no-this-before-super': ERROR,
         'no-unreachable': ERROR,
